@@ -1,0 +1,89 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 18px;
+  background: #0b1220;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.form {
+  background: #111827;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1f2937;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+button {
+  background: #10b981;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background: transparent;
+  border: 1px solid #94a3b8;
+  color: #94a3b8;
+}
+
+.card {
+  background: #111827;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.result-amount {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.breakdown {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.link-btn {
+  display: inline-block;
+  margin-top: 12px;
+  text-decoration: none;
+  border: 1px dashed #94a3b8;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: #94a3b8;
+}
+
+.small {
+  font-size: 12px;
+  color: #94a3b8;
+}
